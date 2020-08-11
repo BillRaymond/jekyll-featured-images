@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Post 3!"
+date:   2020-08-09 07:41:25 -0700
+categories: jekyll update
+image: /assets/images/image3.jpg
+---
+This is a post.
