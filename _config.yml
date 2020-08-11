@@ -18,16 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Featured Images Tutorial
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This website was designed to help you learn how to add featured images to posts and post rolls.
+  To watch video training and learn more, view the readme file on my [GitHub repo](https://github.com/BillRaymond/jekyll-featured-images).
 baseurl: "/jekyll-featured-images" # the subpath of your site, e.g. /blog
 url: "https://billraymond.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: billraymonde
+github_username:  billraymond
 
 # Build settings
 theme: minima
