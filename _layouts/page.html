@@ -11,4 +11,8 @@ layout: default
     {{ content }}
   </div>
 
+  {%- assign pageTitle = page.title -%}
+  {%- if pageTitle == "Blog" or pageTitle == "Podcast" -%}
+    The page title is {{ pageTitle }}
+  {%- endif -%}
 </article>
