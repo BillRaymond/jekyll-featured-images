@@ -11,4 +11,9 @@ layout: default
     {{ content }}
   </div>
 
+  {%- assign feedType = page.feed-type -%}
+  {%- if feedType == "blog" or feedType =="podcast" -%}
+    {% include feed.html %}
+  {%- endif -%}
+
 </article>
