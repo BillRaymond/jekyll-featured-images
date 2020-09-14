@@ -28,6 +28,9 @@ url: "https://billraymond.github.io" # the base hostname & protocol for your sit
 twitter_username: billraymonde
 github_username:  billraymond
 
+# excerpts are only one sentence
+excerpt_separator: .
+
 # Build settings
 theme: minima
 plugins:
