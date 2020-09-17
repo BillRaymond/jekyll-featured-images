@@ -1,0 +1,54 @@
+.feed .feed-card {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-rows: 110px;
+    column-gap: 10px;
+    margin-top: 10px;
+    border-top: lightgray;
+    border-width: 1px;
+    border-top-style: solid;
+
+    .card-content {
+        display: grid;
+        grid-template-rows: min-content auto min-content;
+        grid-template-areas:
+            "title"
+            "excerpt"
+            "date";
+    }
+
+    .card-title {
+        grid-area: title;
+        align-content: start;
+    }
+
+    .card-excerpt {
+        grid-area: excerpt;
+        align-content: start;
+    }
+
+    .card-date {
+        grid-area: date;
+        align-content: end;
+    }
+
+    // styling
+    .featured-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .title {
+        font-weight: bold;
+    }
+
+    .excerpt {
+        font-style: italic;
+    }
+
+    .date {
+        color: darkgray;
+        font-size: 8pt;
+    }
+}
