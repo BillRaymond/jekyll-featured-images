@@ -1,8 +1,8 @@
 // this is the styling for a featured post
 .featured-post .feed-card {
     display: grid;
-    grid-template-columns: 110px 1fr;
-    grid-template-rows: 110px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px;
     column-gap: 10px;
     margin-top: 10px;
     border-top: lightgray;
@@ -12,6 +12,7 @@
     .card-content {
         display: grid;
         grid-template-rows: min-content auto min-content;
+        background-color: black;
         grid-template-areas:
             "title"
             "excerpt"
@@ -42,10 +43,13 @@
 
     .title {
         font-weight: bold;
+        font-size: 24pt;
+        color: white;
     }
 
     .excerpt {
         font-style: italic;
+        color: white;
     }
 
     .date {
