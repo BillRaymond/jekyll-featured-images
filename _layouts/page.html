@@ -15,6 +15,7 @@ layout: default
   {%- assign feedType = page.feed-type -%}
   {%- assign displayOffset = 0 -%}
   {%- assign displayLimit = 1 -%}
+  {%- assign sectionName = "featured-post" -%}
   {%- if feedType == "blog" or feedType =="podcast" -%}
     {% include feed.html %}
   {%- endif -%}
@@ -23,6 +24,7 @@ layout: default
   {%- assign feedType = page.feed-type -%}
   {%- assign displayOffset = 1 -%}
   {%- assign displayLimit = null -%}
+  {%- assign sectionName = "feed" -%}
   {%- if feedType == "blog" or feedType =="podcast" -%}
     {% include feed.html %}
   {%- endif -%}
