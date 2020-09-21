@@ -41,10 +41,14 @@
         object-fit: cover;
     }
 
-    .title {
+    .post-link {
         font-weight: bold;
         font-size: 24pt;
         color: white;
+        &:link { color: white; }
+        &:visited { color: white; }
+        &:hover { color: white; }
+        text-decoration: none;
     }
 
     .excerpt {
@@ -100,8 +104,14 @@
         object-fit: cover;
     }
 
-    .title {
+    .post-link {
         font-weight: bold;
+        font-size: 14pt;
+        color: black;
+        &:link { color: black; }
+        &:visited { color: black; }
+        &:hover { color: black; }
+        text-decoration: none;
     }
 
     .excerpt {

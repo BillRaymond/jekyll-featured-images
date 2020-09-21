@@ -14,7 +14,8 @@
         <div class="card-content">
             <div class="card-title">
                 {%- assign postTitle = post.title | escape -%}
-                <span class="title">{{postTitle}}</span>
+                {%- assign postUrl = post.url | relative_url -%}
+                <span class="title"><a href="{{postUrl}}" class="post-link">{{postTitle}}</a></span>
             </div>
             <div class="excerpt">
                 {%- assign postExcerpt = post.excerpt | strip_html | escape -%}
