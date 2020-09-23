@@ -11,21 +11,21 @@ layout: default
     {{ content }}
   </div>
 
-  <h2>Featured post</h2>
   {%- assign feedType = page.feed-type -%}
-  {%- assign displayOffset = 0 -%}
-  {%- assign displayLimit = 1 -%}
-  {%- assign sectionName = "featured-post" -%}
   {%- if feedType == "blog" or feedType =="podcast" -%}
+    <h2>Featured post</h2>
+    {%- assign displayOffset = 0 -%}
+    {%- assign displayLimit = 1 -%}
+    {%- assign sectionName = "featured-post" -%}
     {% include feed.html %}
   {%- endif -%}
 
-  <h2>Posts</h2>
   {%- assign feedType = page.feed-type -%}
-  {%- assign displayOffset = 1 -%}
-  {%- assign displayLimit = null -%}
-  {%- assign sectionName = "feed" -%}
   {%- if feedType == "blog" or feedType =="podcast" -%}
+    <h2>Posts</h2>
+    {%- assign displayOffset = 1 -%}
+    {%- assign displayLimit = null -%}
+    {%- assign sectionName = "feed" -%}
     {% include feed.html %}
   {%- endif -%}
 
