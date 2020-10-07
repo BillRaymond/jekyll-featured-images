@@ -4,7 +4,3 @@ This repo, which is also hosted on [GitHub Pages](https://billraymond.github.io/
 
 ## Please subscribe to my YouTube channel for more content
 Any time I update this site with more functionality, I will post a related YouTube video on [my channel](https://www.youtube.com/channel/UCo63gWfWRfEciJ98mJLIU0Q). Please subscribe and comment so I can keep making great content for you.
-
-## Adding a featured image to a post page
-
-
